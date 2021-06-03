@@ -143,7 +143,7 @@ Lifted background, equivalent to Arctica 2.
 ### Arctica 7
 `aeb7c6`
 
-Highlight, equivalent to Arctica 3
+Highlight, equivalent to Arctica 3, except when used as light grey in a terminal.
 
 #### Light themes
 * For text highlighting/selecting
@@ -216,3 +216,11 @@ Arctica 22 should highlight pre-processor directives.
 Rarely used in UI.
 
 Should highlight numbers, such as integers or floats.
+
+## Important notes
+
+### Text highlighting
+The foreground color of selected text should change to the default foreground color.
+
+### Aurora Color Shades
+Descriptions of syntax highlighting and UI elements refer to the lighter Aurora colors, unless otherwise noted.
