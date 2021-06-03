@@ -69,7 +69,7 @@ Secondary background, equivalent to Arctica 5, except when used as black in a te
 ### Arctica 2
 `3b4252`
 
-Lifted background, equivalent to Arctica 6.
+Lifted background, equivalent to Arctica 6, except when used as dark gray in a terminal.
 
 #### Dark themes
 * For lifted elements, such as popups, some buttons/inputs, etc
@@ -82,7 +82,7 @@ Lifted background, equivalent to Arctica 6.
 ### Arctica 3
 `4c566a`
 
-Highlight, equivalent to Arctica 7, except when used as dark gray in a terminal.
+Highlight, equivalent to Arctica 7.
 
 #### Dark themes
 * For text highlighting/selecting
@@ -130,7 +130,7 @@ Secondary background, equivalent to Arctica 1, except when used as white in a te
 ### Arctica 6
 `c2c9d6`
 
-Lifted background, equivalent to Arctica 2.
+Lifted background, equivalent to Arctica 2, except when used as light gray in a terminal.
 
 #### Light themes
 * For lifted elements, such as popups, some buttons/inputs, etc
