@@ -74,6 +74,7 @@ Lifted background, equivalent to Arctica 6.
 #### Dark themes
 * For lifted elements, such as popups, some buttons/inputs, etc
 * For highlighting the current line
+* For comments
 
 #### Light themes
 * Can be used for text, icons, etc with less prominence, but it is recommended that Arctica 3 be used for this purpose
@@ -134,6 +135,7 @@ Lifted background, equivalent to Arctica 2.
 #### Light themes
 * For lifted elements, such as popups, some buttons/inputs, etc
 * For highlighting the current line
+* For comments
 
 #### Dark themes
 * Can be used for text, icons, etc with less prominence, but it is recommended that Arctica 7 be used for this purpose
