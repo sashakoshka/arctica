@@ -18,7 +18,7 @@ On the [Nord theme website](https://nordtheme.com), you can experience a forbidd
 On second thought, it shouldn't. Why? Well, it seems that in an effort to keep the palette 16 colors long, Arctic Ice Studios had to include 4 dark colors, and only 3 light colors. This is bizarre, because when reading through the documentation, it seems as if they intended Polar Night and Snowstorm to  be equivalents of eachother, to be used for dark mode and light mode respectively. Unfortunately, since the colors are imbalanced 4:3 (5:3 if you count `nord -1`) they're not exactly hot swappable.
 
 ### The Nord Theme Blues
-What they couldn't do for the white colors, Arctic Ice Studios certainly made up for in the blues! [Frost](https://www.nordtheme.com/docs/colors-and-palettes#frost), the "heart palette of Nord", is composed of *four* slightly different shades of blue. While they are all clearly distinct colors, did we really need all of them? *Did we?*
+What they couldn't do for the white colors, Arctic Ice Studios certainly made up for in the blues! [Frost](https://www.nordtheme.com/docs/colors-and-palettes#frost), the "heart palette of Nord", is composed of *four* slightly different shades of blue. While they are all clearly distinct colors, an extra Snow Storm color could definitely have taken the place of one.
 
 ### What About Terminals?
 This issue is rather simple. Terminals want 16 colors, only 4 of those being gray/white/black shades. Nord does not have dark versions of the aurora colors, thus not enough colors to theme a terminal.
@@ -33,6 +33,8 @@ Thus, this project.
 ## Polar Night
 ![The Polar Night colors](img/polar-night.bmp)
 
+`0    1    2    3`
+
 A implementation of the original Polar Night colors, this time starting in a deeper key. Designed to be entirely equivalent to Arctica's own Snow Storm.
 
 In dark themes, these colors are usually used as backgrounds. In light themes, they are used as text/icon colors.
@@ -40,10 +42,11 @@ In dark themes, these colors are usually used as backgrounds. In light themes, t
 ### Arctica 0
 `2b303c`
 
-Background, equivalent to Arctica 4
+Background, equivalent to Arctica 4.
 
 #### Dark themes
 * As a background
+* As a terminal background
 * As a shadow
 * Rarely, to break up lighter Polar Night colors
 
@@ -53,7 +56,7 @@ Background, equivalent to Arctica 4
 ### Arctica 1
 `2e3440`
 
-Secondary background, equivalent to Arctica 5
+Secondary background, equivalent to Arctica 5, except when used as black in a terminal.
 
 #### Dark themes
 * As a secondary background
@@ -61,11 +64,12 @@ Secondary background, equivalent to Arctica 5
 
 #### Light themes
 * As text, icons, etc
+* As the default foreground color in a terminal
 
 ### Arctica 2
 `3b4252`
 
-Lifted background, equivalent to Arctica 6
+Lifted background, equivalent to Arctica 6.
 
 #### Dark themes
 * For lifted elements, such as popups, some buttons/inputs, etc
@@ -77,7 +81,7 @@ Lifted background, equivalent to Arctica 6
 ### Arctica 3
 `4c566a`
 
-Highlight, equivalent to Arctica 7
+Highlight, equivalent to Arctica 7, except when used as dark gray in a terminal.
 
 #### Dark themes
 * For text highlighting/selecting
@@ -89,6 +93,8 @@ Highlight, equivalent to Arctica 7
 ## Snow Storm
 ![The Snow Storm colors](img/snow-storm.bmp)
 
+`4    5    6    7`
+
 A implementation of the original Snow Storm colors Designed to be entirely equivalent to Arctica's own Polar Night. Unlike Polar Night, these colors are ordered from dark to light. This is intentional - all you need to do to turn on the lights is add 4.
 
 In light themes, these colors are usually used as backgrounds. In dark themes, they are used as text/icon colors.
@@ -96,10 +102,11 @@ In light themes, these colors are usually used as backgrounds. In dark themes, t
 ### Arctica 4
 `eceff4`
 
-Background, equivalent to Arctica 0
+Background, equivalent to Arctica 0.
 
 #### Light themes
 * As a background
+* As a terminal background
 * As a shadow
 * Rarely, to break up darker Snow Storm colors
 
@@ -109,7 +116,7 @@ Background, equivalent to Arctica 0
 ### Arctica 5
 `d8dee9`
 
-Secondary background, equivalent to Arctica 1
+Secondary background, equivalent to Arctica 1, except when used as white in a terminal.
 
 #### Light themes
 * As a secondary background
@@ -117,11 +124,12 @@ Secondary background, equivalent to Arctica 1
 
 #### Dark themes
 * As text, icons, etc
+* As the default foreground color in a terminal
 
 ### Arctica 6
 `c2c9d6`
 
-Lifted background, equivalent to Arctica 2
+Lifted background, equivalent to Arctica 2.
 
 #### Light themes
 * For lifted elements, such as popups, some buttons/inputs, etc
@@ -141,3 +149,42 @@ Highlight, equivalent to Arctica 3
 
 #### Dark themes
 * Text, icons, etc with less prominence
+
+## Aurora
+`8    9   10   11   12   13   14   15`
+
+![The Aurora colors](img/aurora.bmp)
+
+`16   17   18   19   20   21   22   23`
+
+Aurora and Frost have been melded into one section. Each of these colors has a handy dark and light version.
+
+### Arctica 8 and 16
+`a8555d`|`bf616a`
+
+### Arctica 9 and 17
+`b77763`|`d08770`
+
+### Arctica 10 and 18
+`cdb179`|`ebcb8b`
+
+### Arctica 11 and 19
+`8ba277`|`a3be8c`
+
+Represents a process which has succeeded.
+
+### Arctica 12 and 20
+`769b9b`|`8fbcbb`
+
+### Arctica 13 and 21
+`72a1ae`|`88c0d0`
+
+This is the palette's primary accent color. It should be used for UI elements that need to be more visually prominent, such as a default OK button.
+
+### Arctica 14 and 22
+`5e81ac`|`81a1c1`
+
+These are secondary and tertiary accent colors, respectively. They should be used foe elements that need to be visually prominent, but not as much as elements colored with Arctica 21.
+
+### Arctica 15 and 23
+`92738c`|`b48ead`
