@@ -162,29 +162,55 @@ Aurora and Frost have been melded into one section. Each of these colors has a h
 ### Arctica 8 and 16
 `a8555d`|`bf616a`
 
+Represents a process which has failed, an error, or potentially risky functionality, such as a "discard changes and exit" button.
+
+Should highlight git diff deletions and erroneous syntax/code.
+
 ### Arctica 9 and 17
 `b77763`|`d08770`
 
+Rarely used in UI.
+
+Should highlight special syntax and escape characters/sequences.
+
 ### Arctica 10 and 18
 `cdb179`|`ebcb8b`
+
+Represents a process that has succeeded with warnings, or warnings in general.
+
+Should highlight git diff modifications and regular expressions.
 
 ### Arctica 11 and 19
 `8ba277`|`a3be8c`
 
 Represents a process which has succeeded.
 
+Should be used to highlight strings and chars, as well as git diff additions.
+
 ### Arctica 12 and 20
 `769b9b`|`8fbcbb`
+
+Should highlight classes, datatypes, and primitives.
 
 ### Arctica 13 and 21
 `72a1ae`|`88c0d0`
 
 This is the palette's primary accent color. It should be used for UI elements that need to be more visually prominent, such as a default OK button.
 
+Should highlight declarations, functions, and function calls.
+
 ### Arctica 14 and 22
 `5e81ac`|`81a1c1`
 
 These are secondary and tertiary accent colors, respectively. They should be used foe elements that need to be visually prominent, but not as much as elements colored with Arctica 21.
 
+Arctica 14 should highlight reserved keywords, operators, tags, units, and punctuation.
+
+Arctica 22 should highlight pre-processor directives.
+
 ### Arctica 15 and 23
 `92738c`|`b48ead`
+
+Rarely used in UI.
+
+Should highlight numbers, such as integers or floats.
