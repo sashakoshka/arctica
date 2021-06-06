@@ -48,7 +48,7 @@ Background, equivalent to Arctica 4.
 * As a background
 * As a terminal background
 * As a shadow
-* Rarely, to break up lighter Polar Night colors
+* To break up lighter Polar Night colors
 
 #### Light themes
 * Do not use this color in light themes
@@ -75,6 +75,7 @@ Lifted background, equivalent to Arctica 6.
 * For lifted elements, such as popups, some buttons/inputs, etc
 * For highlighting the current line
 * For comments
+* Less prominent borders, horizontal rules, etc
 
 #### Light themes
 * Can be used for text, icons, etc with less prominence, but it is recommended that Arctica 3 be used for this purpose
@@ -87,6 +88,7 @@ Highlight, equivalent to Arctica 7, except when used as dark gray in a terminal.
 #### Dark themes
 * For text highlighting/selecting
 * To denote selection in general
+* More prominent borders, horizontal rules, etc
 
 #### Light themes
 * Text, icons, etc with less prominence
@@ -109,7 +111,7 @@ Background, equivalent to Arctica 0.
 * As a background
 * As a terminal background
 * As a shadow
-* Rarely, to break up darker Snow Storm colors
+* To break up darker Snow Storm colors
 
 #### Dark themes
 * Do not use this color in dark themes
@@ -136,6 +138,7 @@ Lifted background, equivalent to Arctica 2.
 * For lifted elements, such as popups, some buttons/inputs, etc
 * For highlighting the current line
 * For comments
+* Less prominent borders, horizontal rules, etc
 
 #### Dark themes
 * Can be used for text, icons, etc with less prominence, but it is recommended that Arctica 7 be used for this purpose
@@ -148,6 +151,7 @@ Highlight, equivalent to Arctica 3, except when used as light grey in a terminal
 #### Light themes
 * For text highlighting/selecting
 * To denote selection in general
+* More prominent borders, horizontal rules, etc
 
 #### Dark themes
 * Text, icons, etc with less prominence
